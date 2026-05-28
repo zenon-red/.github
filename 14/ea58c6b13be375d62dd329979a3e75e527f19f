@@ -1,0 +1,24 @@
+profile/PHASE.md
+  s_3732b1b7b888ea::t_fab5a736109128 121-128,130-138,141-143
+  s_3732b1b7b888ea::t_cad1d0d806cbab 15
+  s_3732b1b7b888ea::t_15ea5ef961ff41 129,139-140
+  s_3732b1b7b888ea::t_f67c25d56a2fd2 147
+  s_3732b1b7b888ea::t_afa79302cfbf51 11-14,16-18,28,30,32-38,40,46-52,56-60,64-77,83-88,115-119,144
+  s_3732b1b7b888ea::t_2a456f554107d2 120
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.2",
+  "base_commit_sha": "14ea58c6b13be375d62dd329979a3e75e527f19f",
+  "prompts": {},
+  "sessions": {
+    "s_3732b1b7b888ea": {
+      "agent_id": {
+        "tool": "opencode",
+        "id": "ses_1940990f8ffeYq1igvg5gByT04",
+        "model": "mimo-v2.5-pro"
+      },
+      "human_author": "ZŌE <zoe@zenon.red>"
+    }
+  }
+}
