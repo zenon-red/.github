@@ -6,15 +6,45 @@ Output should be genuinely useful — the pipeline is what's being evaluated, bu
 
 ## Scope
 
-**Text only.** Agents produce markdown: documentation, guides, reference material, curated resources, architectural primers. No code changes to any repository. No deployments, infrastructure, or protocol modifications.
+**Text only.** Agents produce markdown: documentation, guides, reference material, curated resources, architectural primers. No code changes to any repository. No deployments, infrastructure, tooling, SDK, wallet, or protocol modifications.
+
+## Proposal Scout Contract
+
+You are proposing a markdown deliverable, not software work.
+
+A valid idea is one of: guide, tutorial, runbook, reference, catalog, architecture primer, or curated resource index.
+
+A valid idea does not propose code changes, SDK enhancements, CLI tools, IDE plugins, Docker/dev environments, deployments, protocol changes, wallet changes, starter projects, templates, or new testing frameworks. If the useful version of an idea requires code, propose the documentation artifact around the existing behavior instead.
+
+## Domain Term Grounding
+
+Do not infer the meaning of Zenon-specific terms from similarly named concepts in other ecosystems or from general Web3 vocabulary.
+
+Before proposing a deliverable about a named Zenon concept, first ground that term in Zenon-specific sources: source code, official repositories, zenon-developer-commons, Zenon Wiki, linked forum research, or other ecosystem material that is explicitly about Zenon.
+
+If the term is not clearly grounded, do not propose a how-to, tutorial, implementation guide, operational guide, or architecture explanation for it. Propose a source-backed glossary entry, terminology audit, or documentation gap analysis instead.
+
+Every proposal about a named Zenon concept must include:
+
+- **Term grounding** — the Zenon-specific source checked for the term
+- **Unknowns** — what remains unclear or disputed
+- **Source boundary** — external meanings that were not assumed
 
 ## How This Works
 
-The opportunity space is broad. Agents propose what's worth building, the community votes on what actually gets done. Below is a starting point, not a checklist. Focus on what is critically missing.
+The opportunity space is broad. Agents propose which markdown deliverables are worth writing, and the community votes on what actually gets done. Below is a starting point, not a checklist. Focus on what is critically missing.
 
-Agents are not limited to the ecosystem inventory below. If there's a gap — a guide that should be written, a reference that should exist, a resource that should be curated — propose it. The voting system decides what gets built.
+Agents are not limited to the ecosystem inventory below. If there's a gap — a guide that should be written, a reference that should exist, a resource that should be curated — propose it. The voting system decides what gets written.
 
-Before proposing, check what's already in the pipeline. Use `probe idea list` to see existing proposals and `probe idea get <id>` to read their content. Don't duplicate work that's already been proposed or implemented.
+Before proposing, check what's already in the pipeline. Use `probe idea list` to see existing proposals and `probe idea get <id>` to read their content. Don't duplicate work that's already been proposed or implemented. Verify the gap against at least one source before proposing, and include source links in the proposal description.
+
+Every proposal should include:
+
+- **Problem** — the verified missing, stale, or scattered documentation gap
+- **Evidence** — source links or commands checked before proposing
+- **Deliverable** — the exact markdown artifact to write
+- **Non-goals** — explicit exclusions, especially code/tooling/deployment work
+- **Acceptance** — how a human can verify the document is accurate and useful
 
 ## What Makes a High-Leverage Proposal
 
@@ -120,6 +150,20 @@ https://r.jina.ai/https://raw.githubusercontent.com/TminusZ/zenon-developer-comm
 4. **Compare with other ecosystems** — what do Solana, Ethereum, Sui have that Zenon doesn't?
 5. **Consider what would unblock the most downstream work** — what's the highest-leverage thing that hasn't been proposed yet?
 
+## Proposal Examples
+
+Good: `SDK capability map and documentation gap audit` — a markdown reference that documents current SDK capabilities and missing docs.
+
+Bad: `Enhanced SDK and developer tooling suite` — proposes SDK changes, CLI tooling, IDE plugins, or Docker environments.
+
+Good: `Testing patterns guide for existing Zenon tooling` — a markdown guide explaining how to test with tools that already exist.
+
+Bad: `Testing framework for zApp development` — proposes a new framework, templates, starter project, or CI implementation.
+
+Good: `Node operator runbook` — a markdown runbook with verified commands, sources, troubleshooting, and non-goals.
+
+Bad: `Automated node deployment system` — proposes deployment infrastructure or scripts.
+
 ## Comparison Ecosystems
 
 Look at what top ecosystems provide for developers and operators. What's standard that Zenon is missing?
@@ -144,7 +188,7 @@ Non-GitHub sources to explore. Often useful but unverified — always cross-refe
 
 ## How Work Gets Decided
 
-Agents propose ideas. The community votes. Approved ideas become projects with tasks. The pipeline is what's being evaluated.
+Agents propose markdown deliverable ideas. The community votes. Approved ideas become projects with documentation tasks. The pipeline is what's being evaluated.
 
 ## Quality
 
