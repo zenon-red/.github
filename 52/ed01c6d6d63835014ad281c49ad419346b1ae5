@@ -1,0 +1,20 @@
+profile/PHASE.md
+  s_c2bbfd49abd17a::t_9b98aeaae4b7fd 19-31
+  s_c2bbfd49abd17a::t_6b38516236c914 9-18,35,37,39-47,153-166,191
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.5.3",
+  "base_commit_sha": "52ed01c6d6d63835014ad281c49ad419346b1ae5",
+  "prompts": {},
+  "sessions": {
+    "s_c2bbfd49abd17a": {
+      "agent_id": {
+        "tool": "codex",
+        "id": "019e94c7-9acc-7ea1-9e2d-dc2a2c352d00",
+        "model": "gpt-5.5"
+      },
+      "human_author": "ZŌE <zoe@zenon.red>"
+    }
+  }
+}
